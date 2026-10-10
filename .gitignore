@@ -1,0 +1,29 @@
+# --- Secrets: NEVER in GitHub, especially while public ---
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*secret*
+*api-key*
+
+# --- Real data: faculty records live in Supabase, never here ---
+data/
+uploads/
+*.csv
+real-faculty/
+
+# --- CVs and resumes used for private testing only ---
+cvs/
+resumes/
+*.pdf
+
+# --- Python leftovers (created automatically when code runs) ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- Tool and operating-system clutter ---
+.vscode/
+.DS_Store
+Thumbs.db
