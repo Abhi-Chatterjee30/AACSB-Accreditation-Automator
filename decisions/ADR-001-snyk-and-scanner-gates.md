@@ -1,10 +1,9 @@
 # ADR-001 — Snyk: optional extra check, not a required gate
 
-**Status:** Proposed — needs Abhi's approval before it counts as a decision
+**Status:** Proposed
 **Date:** October 6, 2026
-**Governed by:** Constitution v1.0, Principle IV (Free and Open-Source Only),
-Principle VIII (record significant technology choices as an ADR),
-Principle IX (Nothing Merges Without Passing Checks)
+**Governed by:** Constitution v1.0, Principles IV, VIII, and IX
+
 
 ## The one-picture version
 
